@@ -1,0 +1,132 @@
+/**------------------------------------------------- header section heading and navigation ---------------------------------*/
+header{position: sticky;
+      top: 0px;}
+.header-section {
+
+    display: flex;
+    position: sticky;
+  
+    justify-content: space-between;
+    gap: 40px;
+    background-color: #ff0000;
+}
+
+.logo-img {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0%;
+
+
+}
+
+.logo-img img {
+    
+    
+    width: 100px;
+    background-color: aliceblue;
+    border: 2px rgb(255, 60, 0) solid;
+    box-shadow: #232322;
+    border-radius: 50%;
+}
+
+.logo-img h1 {
+
+    position: relative;
+    top: 20px;
+    color: aliceblue;
+    font-size: 43px;
+    font-weight: 900;
+}
+
+.logo-img:hover
+{
+    transform:scale(1.06);
+    transition: ease-out;
+}
+
+.navigation {}
+
+.nav-baar {
+    position: relative;
+
+    top: 40%;
+    display: flex;
+}
+
+.nav-baar a {
+
+    padding: 10px 20px;
+    color: aliceblue;
+
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.nav-baar ul {
+
+    position: relative;
+    left: 0%;
+    top: 0%;
+    bottom: 0%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    position: relative;
+    left: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    li {
+        padding: 10px 20px;
+        border: #ffdf0c 2px solid;
+        border-radius: 20px;
+    }
+
+    li:hover {
+
+        box-shadow: #ffdf0c 2px 3px;
+        transform: scale(1.05);
+        transition: ease-in-out;
+    }
+
+}
+
+
+.contect-button {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    margin: 10px 20px;
+}
+
+.contect-button button {
+    padding: 20px 30px;
+
+    background-color: #ffb341;
+    border: #ff800a 2px solid;
+    border-radius: 40px;
+
+   
+}
+.contect-button button:hover{
+   
+   background-color: #f2ff00;
+   transform: scale(1.06);
+   transition:ease-in-out;
+
+   a{
+    color: #232322;
+   }
+   
+}
+
+.contect-button a {
+
+
+    font-size: 26px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
